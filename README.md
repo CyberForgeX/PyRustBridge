@@ -16,7 +16,7 @@ Ensure your system is ready with:
 
 - **Rust and Cargo**: Installed via [rustup](https://rustup.rs/). PyRustBridge will check for and install updates as needed.
 - **Python 3.8+**: Verify or install from [python.org](https://www.python.org/downloads/) or your system's package manager.
-- **Minimamba/Conda**: Install using the [official guide][Micromamba instructions](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
+- **Minimamba**: Install using the [official guide][Micromamba instructions](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
 
 ### Quick Start
 
@@ -67,6 +67,7 @@ Your contributions are welcome! Check our `CONTRIBUTING.md` for guidelines on ho
 
 - **The Rust Community**: For developing a system programming language that emphasizes speed and safety.
 - **The Python Community**: For creating a versatile language that emphasizes readability and usability.
+- **The Minimamba Community**: For creating a flexible installer that emphasizes speed, safety and ease of use.
 
 ## License
 
