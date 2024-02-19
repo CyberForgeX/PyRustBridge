@@ -40,18 +40,21 @@ prbridge example.py
 
 ### `example.py` Overview
 
-The provided `example.py` demonstrates **PyRustBridge**'s capability to automate tasks without explicit import statements, showcasing the project's dynamic fix and optimization features:
+## The provided `example.py` demonstrates **PyRustBridge**'s capability to automate tasks without explicit import statements, showcasing the project's dynamic fix and optimization features:
 
 ```python
-from datetime import datetime
-import logging
-import subprocess
-
 log_filename = f"virtualization_setup_{datetime.now().strftime('%Y%m%d%H%M%S')}.log"
 logging.basicConfig(filename=log_filename, level=logging.INFO, format='%(asctime)s %(levelname)s: %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 
 def run_command(command, validate=False, success_msg="", fail_msg="", validation_cmd=""):
     # Command execution and validation logic here
+```
+
+## Notice how you don't have to write these imports, PyRustBridge fixes that:
+```python
+from datetime import datetime
+import logging
+import subprocess
 ```
 
 This script example highlights **PyRustBridge**'s approach to seamless, efficient Python-Rust integration.
