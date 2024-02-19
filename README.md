@@ -12,11 +12,11 @@ PyRustBridge offers a seamless integration between Python's dynamic and high-lev
 
 ## Getting Started
 
-### Prerequisites
+### These will be installed and updated on your system if you don't have them already 
 
 - Rust: Install Rust and Cargo using [rustup](https://rustup.rs/).
 - Python: Ensure Python 3.8+ is installed on your system.
-- Minimamba/Conda: Follow the [Minimamba installation guide](https://github.com/conda-forge/miniforge#mambaforge).
+- Minimamba/Conda: Follow the [Minimamba installation guide](https://github.com/conda-forge/miniforge#mambaforge)(https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html).
 
 ### Installation
 
