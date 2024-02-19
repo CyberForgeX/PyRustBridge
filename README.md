@@ -25,7 +25,7 @@ Clone and set up **PyRustBridge** with these commands:
 ```
 git clone https://github.com/CyberForgeX/PyRustBridge.git && \
 cd PyRustBridge && \
-./scripts/setup_environment.sh
+./scripts/setup_environment.py
 ```
 
 This script prepares your environment, installs dependencies, and ensures **PyRustBridge** is ready for action.
